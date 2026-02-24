@@ -1,137 +1,168 @@
-    <!DOCTYPE html>
-       <html lang="en">
-       <head>
-       <meta charset="UTF-8">
-       <title>Farm of Feelings</title>
-       <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family;=Quicksand&displ
-       ay;=swap" rel="stylesheet">
-       <style>
-       body {
-       margin: 0;
-       font-family: 'Quicksand', sans-serif;
-       text-align: center;
-       color: #4a4a4a;
-       line-height: 1.7;
-       background: linear-gradient(#cfe8ff 0%, #cfe8ff 55%, #bde0a8 55%, #bde0a8 100%);
-       }
-        body::after {
-        content: "";
-        position: fixed;
-        bottom: 0;
-        left: 0;
-       width: 100%;
-       height: 35%;
-       background:
-       radial-gradient(circle at 20% 100%, #a9d18e 40%, transparent 41%),
-       radial-gradient(circle at 80% 100%, #a9d18e 40%, transparent 41%);
-       background-repeat: no-repeat;
-        background-size: 50% 100%;
-        z-index: -1;
-        }
-        .container {
-        max-width: 720px;
-        margin: auto;
-        padding: 40px 20px;
-        }
-       h1 {
-       font-family: 'Baloo 2', cursive;
-       font-size: 3em;
-       color: #5f8a5f;
-       margin-bottom: 10px;
-       }
-.tagline {
-font-style: italic;
-color: #7a6f63;
-margin-bottom: 30px;
-}
-.block {
-background: rgba(255, 253, 248, 0.92);
-padding: 25px;
-border-radius: 18px;
-margin-bottom: 25px;
-box-shadow: 0 6px 14px rgba(0,0,0,0.08);
-text-align: left;
-}
-.block h2 {
-text-align: center;
-margin-top: 0;
-}
-.button {
-display: inline-block;
-padding: 12px 24px;
-background-color: #7fbf7f;
-color: white;
-text-decoration: none;
-border-radius: 999px;
-font-weight: bold;
-margin-top: 10px;
-}
-.button:hover {
-background-color: #6aa96a;
-}
-.description {
-font-size: 0.95em;
-color: #6a6a6a;
-margin-top: 6px;
-margin-bottom: 14px;
-text-align: center;
-}
-footer {
-margin-top: 30px;
-color: #9b9b9b;
-font-size: 0.9em;
-text-align: center;
-}
-</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Farm of Feelings</title>
 
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Quicksand&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Quicksand', sans-serif;
+      text-align: center;
+      color: #4A4A4A;
+
+      /* Soft farm background */
+      background: linear-gradient(
+        #C7DCE5 0%,   /* sky */
+        #C7DCE5 55%,
+        #DCE8C8 55%,  /* field */
+        #DCE8C8 100%
+      );
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 60px auto;
+      background: rgba(246, 241, 231, 0.95);
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      font-family: 'Baloo 2', cursive;
+      color: #7A5230;
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      color: #7A5230;
+      margin-top: 40px;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    .tagline {
+      color: #6FAF6A;
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .button {
+      display: block;
+      margin: 15px auto;
+      padding: 15px;
+      width: 80%;
+      max-width: 320px;
+      background-color: #6FAF6A;
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .button:hover {
+      background-color: #5C9B58;
+    }
+
+    .section {
+      margin-top: 40px;
+    }
+
+    input[type="email"] {
+      padding: 12px;
+      width: 80%;
+      max-width: 300px;
+      border-radius: 20px;
+      border: 1px solid #ccc;
+      margin-top: 10px;
+    }
+
+    .footer {
+      margin-top: 40px;
+      font-size: 14px;
+      color: #8B5E3C;
+    }
+  </style>
 </head>
-<body>
-<div class="container">
-<h1>Farm of Feelings</h1>
-<p class="tagline">Helping children understand that feelings are visitors, not
-identities.</p>
-<div class="block">
-<h2>Welcome to the Farm</h2>
-<p>
-Welcome to the Farm of Feelings. This is a lively farm where children's
-emotions can visit safely in gentle, caring spaces.
-</p>
-<p>
-Here, feelings come and go. Some arrive quietly, some stomp in, and some stay
-longer than we expect. On this farm, every feeling is welcomed, understood,
-and allowed to leave — just as we are free to leave a visit when it is time.
-</p>
-<p>
-No feeling is too big, too messy, or too much, because feelings are visitors,
-not who we are.
-</p>
-</div>
-<div class="block">
-<h2>Free Resources</h2>
-<a class="button" href="#">Free Parent/Teacher Resources</a>
-<div class="description">
-Conversation guides and tools to help adults support children through big emotions.
-</div>
-<a class="button" href="#">Free Children's Activities</a>
-<div class="description">
-Printable games, coloring pages, and calming exercises for emotional exploration.
-</div>
-<a class="button" href="mailto:youremail@example.com">Join Our Email List</a>
-<div class="description">
-Receive new activities, gentle parenting tips, and updates from the farm.
-</div>
-</div>
-<div class="block">
-<h2>Meet the Creator</h2>
-<p>
-Alexis, RN, is a registered nurse trained in trauma-informed care and
-social-emotional learning frameworks. Farm of Feelings blends emotional
-awareness with gentle guidance, helping families talk about emotions in
 
-healthy, supportive ways.
-</p>
-</div>
-<footer>© 2026 Farm of Feelings</footer>
-</div>
+<body>
+  <div class="container">
+
+    <!-- HOME -->
+    <h1>Farm of Feelings</h1>
+    <p class="tagline">Helping children understand that feelings are visitors, not identities.</p>
+
+    <p>
+      Welcome to the Farm of Feelings — a gentle place where emotions can visit safely.
+      Here, children learn that feelings come and go, and that no feeling defines who they are.
+    </p>
+
+    <!-- NAVIGATION BUTTONS -->
+    <a href="#about" class="button">About</a>
+    <a href="#resources" class="button">Free Parent & Teacher Resources</a>
+    <a href="#activities" class="button">Free Children’s Activities</a>
+    <a href="#comingsoon" class="button">Coming Soon</a>
+    <a href="#email" class="button">Join Our Email List</a>
+
+    <!-- ABOUT -->
+    <div id="about" class="section">
+      <h2>About</h2>
+      <p>
+        Alexis is a registered nurse, trauma-informed certified through Indiana University,
+        and the creator of Farm of Feelings. Her work helps children explore emotions in
+        safe, supportive ways while giving parents and teachers practical tools for
+        emotional guidance.
+      </p>
+    </div>
+
+    <!-- RESOURCES -->
+    <div id="resources" class="section">
+      <h2>Free Parent & Teacher Resources</h2>
+      <p>
+        Download gentle guides, scripts, and tools designed to help adults support
+        children’s emotional development with confidence and compassion.
+      </p>
+    </div>
+
+    <!-- ACTIVITIES -->
+    <div id="activities" class="section">
+      <h2>Free Children’s Activities</h2>
+      <p>
+        Printable activities that help children name, explore, and release feelings
+        through creativity, movement, and play.
+      </p>
+    </div>
+
+    <!-- COMING SOON -->
+    <div id="comingsoon" class="section">
+      <h2>Coming Soon</h2>
+      <p>
+        The Farm of Feelings book series, Duve the guide, and more resources to support
+        emotional safety in homes and classrooms.
+      </p>
+    </div>
+
+    <!-- EMAIL LIST -->
+    <div id="email" class="section">
+      <h2>Join Our Email List</h2>
+      <p>Get free resources, updates, and gentle parenting tools.</p>
+      <input type="email" placeholder="Enter your email">
+      <br><br>
+      <a href="#" class="button">Subscribe</a>
+    </div>
+
+    <div class="footer">
+      © Farm of Feelings
+    </div>
+
+  </div>
 </body>
 </html>
